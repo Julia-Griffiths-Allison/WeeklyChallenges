@@ -7,7 +7,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            return c;
         }
 
         public bool CountOfElementsIsEven(string[] vals)

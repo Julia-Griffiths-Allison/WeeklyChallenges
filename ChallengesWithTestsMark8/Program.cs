@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ChallengesWithTestsMark8
 {
@@ -6,7 +7,12 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            if (true)
+            {
+                Console.WriteLine("This is true");
+                
+            }
+
         }
     }
 }
